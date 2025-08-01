@@ -1,0 +1,55 @@
+.header {
+    background-color: black;
+    color: greenyellow;
+    text-align: left;
+    padding: 10px;
+}
+body {
+    background-color: seagreen;
+}
+.Image img {
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+    border: 10px solid goldenrod;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+}
+.Image img:hover {
+    background-color: green;
+    border-color: greenyellow;
+}
+.text h1:nth-child(1){
+    position: absolute;
+    left: 260px;
+    top: 250px;
+    font-size: 30px;
+}
+.text h1:nth-child(2){
+    position: absolute;
+    left: 260px;
+    top: 550px;
+    font-size: 30px;
+}
+.text h1:nth-child(3){
+    position: absolute;
+    left: 260px;
+    top: 850px;
+    font-size: 30px;
+}
+.a a:nth-child(1) {
+    position: absolute;
+    left: 260px;
+    top: 370px;
+}
+.a a:nth-child(2) {
+    position: absolute;
+    left: 260px;
+    top: 670px;
+}
+.a a:nth-child(3) {
+    position: absolute;
+    left: 260px;
+    top: 970px;
+}
